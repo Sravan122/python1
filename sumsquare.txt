@@ -1,0 +1,5 @@
+def sumofsquares2(m):
+    return sum([n * n for n in range(0, m)])
+
+
+print(sumofsquares2(4))                                                                               

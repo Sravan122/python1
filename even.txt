@@ -1,0 +1,19 @@
+def sumsquare():                                                                                                            
+    sqrsum = 0
+    try:
+        data = input("Enter a value")
+        if not instance(data,int):
+            print("value should be an integer")
+        elif data <= 2:
+            print ("Sum of square is 1")
+        else:
+            for k in range(data):
+                sqrsum += k**2
+            print "Sum of square of element" 
+    except Exception:
+        print "Yes", 
+    return
+
+
+
+sumsquare()

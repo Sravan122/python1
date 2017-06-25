@@ -1,0 +1,17 @@
+def minmax():
+    
+    try:
+        info = input("Enter an input ")
+        smallest = largest = info[0]
+        for p in data:
+            if p >= largest:
+                largest = p
+            elif p <= smallest:
+                smallest = p
+            else: pass
+        print (smallest,largest)
+    except Exception:
+        print "input not found "
+    return
+        
+minmax()
